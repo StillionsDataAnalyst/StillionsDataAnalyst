@@ -4,7 +4,7 @@
 
 I transform complex datasets into clear, actionable insights through data visualization and analytical storytelling. With a passion for uncovering patterns and trends, I help organizations make data-driven decisions.
 
-📧 Email: your.email@example.com | 💼 [LinkedIn](your-linkedin-url) | 🌐 [Portfolio Website](your-portfolio-url)
+📧 Email: jessica.stillions@myemail.indwes.edu | 💼 https://www.linkedin.com/in/jessicastillions009/
 
 ---
 
