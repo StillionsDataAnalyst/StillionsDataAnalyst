@@ -143,11 +143,9 @@ I'm a dedicated data analyst with expertise in building dashboards, conducting s
 
 I'm always interested in discussing data projects, sharing insights, and connecting with fellow data enthusiasts!
 
-- 💼 **LinkedIn:** [your-linkedin-url](your-linkedin-url)
-- 📧 **Email:** your.email@example.com
-- 🌐 **Portfolio Website:** [your-portfolio-url](your-portfolio-url)
-- 📊 **Kaggle:** [your-kaggle-profile](your-kaggle-profile)
-- 🐦 **Twitter:** [@YourHandle](your-twitter-url)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/jessicastillions009-
+- 📧 **Email:** jessica.stillions@myemail.indwes.edu
+  
 
 ---
 
