@@ -6,8 +6,7 @@
 
 ### AI-Powered Manufacturing Operations Platform
 
-Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management.# 👋 Hi, I'm StillionsDataAnalyst
-
+Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management.
 **Data Analyst | Analytics Dashboard Developer | Data Storyteller**
 
 I transform complex datasets into clear, actionable insights through data visualization and analytical storytelling. With a passion for uncovering patterns and trends, I help organizations make data-driven decisions.
