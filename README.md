@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/logo.png" alt="FactoryAssist AI Logo" width="180">
-</p>
 
 # FactoryAssist AI
 
