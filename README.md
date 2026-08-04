@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="FactoryAssist AI Logo">
+  <img src="./assets/logo.png" alt="FactoryAssist AI Logo" width="180">
 </p>
 
 # FactoryAssist AI
