@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/logo.png" width="180" alt="FactoryAssist AI Logo">
-</p># FactoryAssist AI
-
 ### AI-Powered Manufacturing Operations Platform
 
 Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management.
