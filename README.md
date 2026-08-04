@@ -1,6 +1,6 @@
 ### AI-Powered Manufacturing Operations Platform
 
-Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management.
+Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management. Quickly transforming issues into solutions by Machine Learning fundamentals. This project is underway with exciting things to come!
 
 **Data Analyst | Analytics Dashboard Developer | Data Storyteller**
 
@@ -12,7 +12,7 @@ I transform complex datasets into clear, actionable insights through data visual
 
 ## 🎯 About Me
 
-I'm a dedicated data analyst with expertise in building dashboards, conducting statistical analysis, and presenting data insights to stakeholders. My goal is to empower teams with clear, visual analytics that drive strategic decisions.
+I'm a dedicated data analyst with expertise in building dashboards, conducting statistical analysis, and presenting data insights to stakeholders. My goal is to empower teams with clear, visual analytics that drive strategic decisions. Continuously improving the way we work to become more efficient in data so businesses can focus on solutions.
 
 **Key Strengths:**
 - Transforming raw data into compelling visualizations
