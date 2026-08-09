@@ -1,165 +1,285 @@
-### AI-Powered Manufacturing Operations Platform
+# Jessica Stillions | AI & Machine Learning Portfolio
 
-Helping operators, maintenance teams, and managers reduce downtime through AI-guided reaction plans, equipment intelligence, and knowledge management. Quickly transforming issues into solutions by Machine Learning fundamentals. This project is underway with exciting things to come!
+## Welcome
 
-**Data Analyst | Analytics Dashboard Developer | Data Storyteller**
+Welcome to my professional portfolio. I am an emerging artificial intelligence and machine learning professional studying at Indiana Wesleyan University. This portfolio documents my growth as I learn to design responsible, practical, and human-centered technology solutions.
 
-I transform complex datasets into clear, actionable insights through data visualization and analytical storytelling. With a passion for uncovering patterns and trends, I help organizations make data-driven decisions.
+My interests connect AI, data analysis, manufacturing operations, workplace safety, education, and communication. The projects below represent work completed or begun during my learning journey. Each artifact is labeled with its current development status.
 
-📧 Email: jessica.stillions@myemail.indwes.edu | 💼 https://www.linkedin.com/in/jessicastillions009/
+## Professional Bio
 
----
+I am developing expertise in artificial intelligence, machine learning, data analysis, and technology-supported problem-solving. My professional experiences have strengthened my ability to understand people's needs, communicate complex information clearly, and identify opportunities for practical improvement.
 
-## 🎯 About Me
+Through my studies at Indiana Wesleyan University, I am learning how AI and machine learning can support safer workplaces, reduce manufacturing downtime, improve access to knowledge, and help people make better-informed decisions. My goal is to bridge the gap between technical systems and the people who use them by creating solutions that are understandable, responsible, and useful.
 
-I'm a dedicated data analyst with expertise in building dashboards, conducting statistical analysis, and presenting data insights to stakeholders. My goal is to empower teams with clear, visual analytics that drive strategic decisions. Continuously improving the way we work to become more efficient in data so businesses can focus on solutions.
+## Personal Value Proposition
 
-**Key Strengths:**
-- Transforming raw data into compelling visualizations
-- Building interactive dashboards for real-time decision-making
-- Communicating complex insights to non-technical audiences
-- Problem-solving through data-driven approaches
+I combine a people-centered perspective with growing expertise in data, artificial intelligence, and machine learning. My unique value is the ability to recognize real-world problems, understand the needs of the intended audience, and translate technical concepts into clear, practical solutions. I aspire to develop responsible AI tools that improve safety, efficiency, communication, and decision-making—especially in manufacturing and other environments where timely guidance matters.
 
----
+## Core Areas of Growth
 
-## 💼 Work Samples & Featured Projects
-
-### 📊 [Sales Analytics Dashboard](link-to-repo)
-**Context:** Built an interactive dashboard for a mid-size retail company to track sales performance across regions and product categories.
-
-**Goals:** 
-- Enable real-time sales monitoring
-- Identify top-performing products and regions
-- Track KPIs against monthly targets
-
-**Challenges & Solutions:**
-- *Challenge:* Multiple data sources with inconsistent formats
-- *Solution:* Created ETL pipeline to standardize and consolidate data
-- *Result:* Reduced reporting time by 80%, enabled automated daily updates
-
-**Tech Stack:** Python, Pandas, Tableau, PostgreSQL
-**Impact:** 15% increase in sales team efficiency
+- Artificial intelligence and machine learning fundamentals
+- Data analysis and visualization
+- Human-centered solution design
+- Manufacturing operations and workplace safety
+- Technical communication and data storytelling
+- Responsible and ethical use of AI
 
 ---
 
-### 📈 [Customer Churn Prediction Analysis](link-to-repo)
-**Context:** Analyzed customer behavior data to predict churn risk for a subscription-based SaaS company.
+# Portfolio Artifacts
 
-**Goals:**
-- Identify at-risk customers before they leave
-- Uncover patterns in customer retention
-- Recommend retention strategies
+## Artifact 1: FactoryAssist AI Reaction-Plan Assistant
 
-**Challenges & Solutions:**
-- *Challenge:* Imbalanced dataset with only 5% churn rate
-- *Solution:* Applied SMOTE resampling and ensemble machine learning models
-- *Result:* Achieved 87% accuracy in churn prediction
+**Status:** Working prototype
 
-**Tech Stack:** Python, Scikit-learn, Jupyter, Matplotlib
-**Impact:** Saved company $250K+ by enabling proactive retention campaigns
+### Introduction
 
----
+Manufacturing operators and maintenance teams often need clear, consistent guidance when equipment problems occur. FactoryAssist AI explores how an AI-supported application could help employees respond to issues safely and efficiently.
 
-### 🔍 [Marketing Campaign Performance Report](link-to-repo)
-**Context:** Analyzed multi-channel marketing data to evaluate campaign effectiveness and ROI.
+### Description
 
-**Goals:**
-- Measure campaign performance across channels
-- Calculate ROI for each marketing initiative
-- Identify optimization opportunities
+FactoryAssist AI is a manufacturing reaction-plan assistant. Its prototype includes equipment selection, structured reaction plans, safety and escalation guidance, sample maintenance history, and a manager reliability dashboard.
 
-**Challenges & Solutions:**
-- *Challenge:* Attribution across touchpoints was unclear
-- *Solution:* Implemented multi-touch attribution model
-- *Result:* Clarified true ROI and reallocated budget accordingly
+[View the FactoryAssist AI repository](https://github.com/StillionsDataAnalyst/FactoryAssist-AI)
 
-**Tech Stack:** SQL, Power BI, Excel, Python
-**Impact:** Optimized marketing spend, 25% improvement in campaign ROI
+### Objective
 
----
+The objective is to reduce confusion and response time during equipment issues by making approved reaction-plan information easier to locate and understand.
 
-## 🛠️ Skills & Proficiency
+### Process
 
-### Programming & Query Languages
-| Skill | Proficiency |
-|-------|-------------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ████████░░ 80% |
-| ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) | ████████░░ 85% |
-| ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) | ██████░░░░ 60% |
+1. Identified the needs of operators, maintenance employees, and managers.
+2. Defined the core features and user flow.
+3. Created a clickable front-end demonstration.
+4. Developed a FastAPI back end with sample reaction-plan matching.
+5. Added safety guidance, escalation steps, and sample equipment history.
+6. Documented future milestones, including authentication, source citations, and a controlled pilot.
 
-### Data Visualization & BI Tools
-| Skill | Proficiency |
-|-------|-------------|
-| ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white) | ████████░░ 85% |
-| ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black) | ████████░░ 80% |
-| ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white) | ███████░░░ 70% |
+### Tools and Technologies Used
 
-### Databases & Tools
-| Skill | Proficiency |
-|-------|-------------|
-| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) | ████████░░ 85% |
-| ![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white) | █████████░ 90% |
-| ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) | ███████░░░ 75% |
+- HTML, CSS, and JavaScript
+- Python
+- FastAPI
+- JSON
+- Git and GitHub
+- AI-assisted brainstorming and development support
 
-### Core Competencies
-- 📊 Data Analysis & Statistical Modeling
-- 📈 Dashboard & Report Development
-- 🔗 ETL Pipeline Design
-- 💡 Data Storytelling & Visualization
-- 📱 Business Intelligence Platforms
-- 🎯 KPI Development & Tracking
+### Value Proposition
+
+#### Unique Value
+
+The project connects technical reaction-plan information with a simple interface designed around the immediate needs of manufacturing employees.
+
+#### Relevance
+
+Fast, consistent access to approved information could support safety, reduce downtime, preserve organizational knowledge, and improve communication between operators, maintenance teams, and managers.
+
+### References
+
+- [FastAPI documentation](https://fastapi.tiangolo.com/)
+- Project materials and sample data are available in the linked repository.
 
 ---
 
-## 🌟 Testimonials
+## Artifact 2: Kids' Anxiety Educational AI Concept
 
-> "StillionsDataAnalyst transformed our raw sales data into a dashboard that our entire team now relies on daily. The insights were immediately actionable and saved us significant time on reporting." 
-— **Sarah Chen, Sales Director** | RetailCorp Inc.
+**Status:** Early development
 
-> "The customer churn analysis was exceptional. Not only were the predictions accurate, but the recommendations were practical and immediately implemented with great results."
-— **Michael Rodriguez, VP of Operations** | TechFlow Solutions
+### Introduction
 
-> "Working with this analyst was refreshing. Complex analyses were presented in a way that non-technical stakeholders could understand and act upon. Highly recommended!"
-— **Jennifer Martinez, Product Manager** | DataDrive Co.
+Children experiencing anxiety may struggle to identify their feelings or remember helpful coping strategies. This concept explores how age-appropriate technology could provide educational support.
 
----
+### Description
 
-## 📊 GitHub Statistics
+The Kids' Anxiety project is an early AI and machine learning concept focused on teaching children what they can do when they feel anxious.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=StillionsDataAnalyst&theme=dark&show_icons=true&hide_title=false)
+[View the Kids' Anxiety repository](https://github.com/StillionsDataAnalyst/MachineLearning)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=StillionsDataAnalyst&theme=dark&layout=compact)
+### Objective
 
----
+The objective is to explore a supportive, easy-to-understand learning experience that helps children recognize anxious feelings and practice appropriate coping skills while preserving the role of trusted adults and qualified professionals.
 
-## 🚀 Recent Activity & Current Projects
+### Process
 
-- 🔄 Developing a real-time analytics pipeline for e-commerce metrics
-- 📚 Contributing to open-source data visualization projects
-- 🎓 Currently learning: Advanced machine learning and predictive modeling
-- 💬 Open to: Collaborations on data analysis projects and freelance analytics work
+1. Identified elementary-age children as the intended audience.
+2. Defined the need for reassuring, developmentally appropriate language.
+3. Considered possible topic-based guidance and interactive learning features.
+4. Created an initial GitHub repository to document the concept.
+5. Identified safety, privacy, and adult-escalation considerations for future development.
 
----
+### Tools and Technologies Used
 
-## 📫 Let's Connect
+- GitHub
+- AI-assisted concept development
+- Human-centered design principles
+- Professional experience supporting children
 
-I'm always interested in discussing data projects, sharing insights, and connecting with fellow data enthusiasts!
+### Value Proposition
 
-- 💼 **LinkedIn:** [https://www.linkedin.com/in/jessicastillions009-
-- 📧 **Email:** jessica.stillions@myemail.indwes.edu
-  
+#### Unique Value
 
----
+The concept combines a child-centered communication perspective with emerging AI knowledge, emphasizing understandable guidance and responsible boundaries.
 
-## ✨ Design Notes
+#### Relevance
 
-This profile is optimized for:
-- ✅ Mobile-friendly viewing
-- ✅ Quick scanning with clear sections
-- ✅ Visual hierarchy using badges and emojis
-- ✅ Easy navigation between projects
-- ✅ Consistent color scheme and formatting
+The project demonstrates how AI concepts can be adapted for a sensitive audience while considering safety, trust, and the limitations of automated support.
+
+### References
+
+Future versions will include cited child-development, anxiety-education, privacy, and AI-safety sources. This concept is educational and is not a substitute for professional mental health care.
 
 ---
 
-⭐ **If you found this profile interesting, feel free to star my repositories and reach out for collaborations!**
+## Artifact 3: Predictive-Maintenance AI Assistant
+
+**Status:** Concept development
+
+### Introduction
+
+Unexpected equipment failures can cause downtime, safety concerns, and production losses. Predictive maintenance uses equipment information to recognize patterns that may indicate an emerging problem.
+
+### Description
+
+This project explores an AI assistant that could organize maintenance information, identify warning patterns, and help maintenance teams decide what equipment may require closer inspection.
+
+### Objective
+
+The objective is to design a practical decision-support concept that helps maintenance employees recognize risks earlier and prioritize preventive action.
+
+### Process
+
+1. Defined the intended users and manufacturing use case.
+2. Identified possible inputs such as alarms, inspection results, downtime records, and sensor readings.
+3. Considered how an assistant could summarize patterns without replacing qualified maintenance judgment.
+4. Outlined safety, validation, and data-quality requirements.
+5. Began planning a prototype and example workflow.
+
+### Tools and Technologies Used
+
+- AI-assisted research and ideation
+- Predictive-maintenance workflow design
+- Data-analysis concepts
+- Planned use of Python and machine learning tools
+
+### Value Proposition
+
+#### Unique Value
+
+The concept emphasizes understandable recommendations for frontline users rather than presenting predictions without operational context.
+
+#### Relevance
+
+A well-validated predictive-maintenance system could help reduce unplanned downtime, support preventive work, and improve the use of maintenance history.
+
+### References
+
+References and datasets will be added as the prototype is developed. Any future operational use would require validation with approved plant data and qualified personnel.
+
+---
+
+## Artifact 4: Plant Emergency Resource-Locator System
+
+**Status:** System design concept
+
+### Introduction
+
+During a plant emergency, employees need to communicate the location quickly and responders need immediate access to information about nearby hazards and emergency resources.
+
+### Description
+
+This project uses the plant's numbered-column system as a location framework. The proposed system would allow authorized users to locate fire extinguishers, electrical equipment, water supplies, piping, and other emergency resources near a reported column location.
+
+### Objective
+
+The objective is to improve emergency communication and help facilities and safety teams find the correct resources quickly.
+
+### Process
+
+1. Identified the existing column-number system as the shared location reference.
+2. Defined resource categories such as fire protection, electrical systems, and water infrastructure.
+3. Outlined a searchable location and resource database.
+4. Considered map, QR-code, mobile, and dashboard interfaces.
+5. Identified the need for controlled access, routine verification, and emergency-procedure approval.
+
+### Tools and Technologies Used
+
+- Process mapping
+- Database and data-field planning
+- Emergency-response workflow design
+- AI-assisted concept development
+- Planned dashboard and mapping technologies
+
+### Value Proposition
+
+#### Unique Value
+
+The design builds on a location system employees already use, making the concept easier to understand and potentially faster to adopt.
+
+#### Relevance
+
+Accurate, accessible facility information can support faster coordination during emergencies. The system would supplement—not replace—approved emergency procedures, training, alarms, and professional responders.
+
+### References
+
+Plant-specific procedures, maps, and regulatory references will be documented only after authorization and review by the appropriate safety and facilities personnel.
+
+---
+
+## Artifact 5: Topic-Based Bible Verse Chatbot
+
+**Status:** Concept development
+
+### Introduction
+
+People often search for Bible passages related to emotions, challenges, or themes but may not know where to begin.
+
+### Description
+
+This project explores a chatbot that accepts a topic or keyword and returns relevant Bible passages with clear context and source information.
+
+### Objective
+
+The objective is to create an approachable learning tool that helps users discover relevant passages while encouraging them to read the surrounding text.
+
+### Process
+
+1. Defined a keyword-based user experience.
+2. Considered how topics could be connected to a curated verse collection.
+3. Identified the need to cite the Bible translation and passage location.
+4. Considered contextual explanations and safeguards against misleading interpretations.
+5. Began evaluating possible platforms and content structures.
+
+### Tools and Technologies Used
+
+- Conversational interface planning
+- AI-assisted concept development
+- Knowledge-organization principles
+- Planned use of a structured verse database or licensed API
+
+### Value Proposition
+
+#### Unique Value
+
+The concept prioritizes simple topic discovery together with transparent citations and contextual reading.
+
+#### Relevance
+
+The project demonstrates how a conversational interface can make a structured knowledge source easier to explore while respecting source attribution and interpretation limits.
+
+### References
+
+Bible translation and data-source references will be added before implementation. Translation licensing and API terms will be reviewed before text is distributed through an application.
+
+---
+
+## Portfolio Development Notes
+
+This portfolio is a record of growth. Some artifacts are complete enough to demonstrate, while others are early concepts that will be expanded as I develop new AI and machine learning skills. Project descriptions will be revised as prototypes, supporting files, references, testing results, and instructor feedback become available.
+
+Artifact reflections are submitted separately to the instructor through Brightspace and are intentionally not included in this public portfolio.
+
+## Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/jessicastillions009/)
+- Email: jessica.stillions@myemail.indwes.edu
