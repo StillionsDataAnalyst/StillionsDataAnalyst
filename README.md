@@ -16,6 +16,14 @@ Through my studies at Indiana Wesleyan University, I am learning how AI and mach
 
 I combine a people-centered perspective with growing expertise in data, artificial intelligence, and machine learning. My unique value is the ability to recognize real-world problems, understand the needs of the intended audience, and translate technical concepts into clear, practical solutions. I aspire to develop responsible AI tools that improve safety, efficiency, communication, and decision-making—especially in manufacturing and other environments where timely guidance matters.
 
+## Target Audience
+
+This portfolio is designed for employers, hiring managers, manufacturing leaders, technology professionals, educators, and other professionals interested in the practical application of artificial intelligence, machine learning, and data analysis.
+
+It is particularly relevant to organizations seeking professionals who can connect emerging technology with real-world human and operational needs. My projects demonstrate how AI and data-driven solutions can be applied to manufacturing safety, equipment reliability, emergency response, education, and knowledge accessibility.
+
+For potential employers and professional collaborators, this portfolio provides evidence of my ability to identify problems, design practical technology-supported solutions, communicate technical concepts clearly, and consider the ethical and human impact of artificial intelligence. As I continue developing my technical skills, the portfolio also documents my growth from conceptual problem-solving to working prototypes and applied AI solutions.
+
 ## Core Areas of Growth
 
 - Artificial intelligence and machine learning fundamentals
@@ -127,7 +135,9 @@ The project demonstrates how AI concepts can be adapted for a sensitive audience
 
 ### References
 
-Future versions will include cited child-development, anxiety-education, privacy, and AI-safety sources. This concept is educational and is not a substitute for professional mental health care.
+- [National Institute of Mental Health (NIMH): Children and Anxiety Disorders](https://www.nimh.nih.gov/research/research-conducted-at-nimh/join-a-study/children/children-anxiety-disorders)
+- [National Institute of Standards and Technology (NIST): Artificial Intelligence Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- This concept is educational and is not intended to diagnose, treat, or replace professional mental health care or the support of trusted adults.
 
 ---
 
@@ -174,7 +184,10 @@ A well-validated predictive-maintenance system could help reduce unplanned downt
 
 ### References
 
-References and datasets will be added as the prototype is developed. Any future operational use would require validation with approved plant data and qualified personnel.
+- [U.S. Department of Energy: Operations and Maintenance Challenges and Solutions](https://www.energy.gov/cmei/femp/operations-and-maintenance-challenges-and-solutions)
+- [U.S. Department of Energy: Energy Management Information System Capabilities](https://www.energy.gov/cmei/femp/energy-management-information-system-capabilities)
+- [National Institute of Standards and Technology (NIST): Artificial Intelligence Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- Any future operational use would require validation with approved plant data, equipment-specific procedures, and qualified maintenance personnel.
 
 ---
 
@@ -222,7 +235,9 @@ Accurate, accessible facility information can support faster coordination during
 
 ### References
 
-Plant-specific procedures, maps, and regulatory references will be documented only after authorization and review by the appropriate safety and facilities personnel.
+- [Occupational Safety and Health Administration (OSHA): Emergency Preparedness and Response—Getting Started](https://www.osha.gov/emergency-preparedness/getting-started)
+- [OSHA Standard 29 CFR 1910.38: Emergency Action Plans](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38)
+- Plant-specific procedures, maps, resource locations, and emergency requirements would be incorporated only after authorization and review by the appropriate safety and facilities personnel.
 
 ---
 
