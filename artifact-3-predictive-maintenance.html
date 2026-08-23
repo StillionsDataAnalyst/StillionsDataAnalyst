@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Predictive-Maintenance AI Assistant portfolio artifact by Jessica Stillions." />
-  <title>Predictive-Maintenance AI Assistant | Jessica Stillions</title>
+  <meta name="description" content="Predictive-maintenance machine learning model portfolio artifact by Jessica Stillions." />
+  <title>Predictive Maintenance ML Model | Jessica Stillions</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -15,22 +15,71 @@
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Artifact 3 • Concept Development</p>
-        <h1>Predictive-Maintenance AI Assistant</h1>
-        <p class="hero-lead">Using AI-supported decision tools to help maintenance teams recognize warning patterns earlier.</p>
-        <a class="button primary" href="index.html#projects">← Back to All Projects</a>
+        <p class="eyebrow">Artifact 3 • Working ML Demonstration</p>
+        <h1>Predictive Maintenance ML Model</h1>
+        <p class="hero-lead">Comparing machine-learning models to identify elevated equipment failure risk.</p>
+        <p class="hero-text">This demonstration uses synthetic manufacturing data so no confidential plant information is exposed. It shows the full workflow from feature preparation and train-test splitting through model comparison, metric selection, and responsible-use planning.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="predictive-maintenance-model/README.md">View Model Results</a>
+          <a class="button secondary" href="predictive-maintenance-model/train_model.py">View Python Code</a>
+          <a class="button secondary" href="index.html#projects">← Back to Projects</a>
+        </div>
       </div>
-      <div class="hero-card"><p class="card-kicker">Focus</p><h2>Reliability + Data + AI</h2><p>A practical concept for organizing maintenance information and surfacing patterns that may indicate emerging equipment problems.</p></div>
+      <div class="hero-card"><p class="card-kicker">Selected Model</p><h2>Logistic Regression</h2><p>Selected because it achieved the strongest recall and ROC-AUC among the three compared models, which better supports a screening use case where missed risks matter.</p><div class="mini-grid"><span>Recall 0.644</span><span>ROC-AUC 0.760</span><span>F1 0.414</span><span>1,200 Rows</span></div></div>
     </section>
 
-    <section class="section split-section"><div><p class="section-label">Introduction</p><h2>Turning maintenance history into earlier insight.</h2></div><div class="prose"><p>Unexpected equipment failures can cause downtime, safety concerns, and production losses. Predictive maintenance uses equipment information to recognize patterns that may indicate an emerging problem.</p><p>This project explores an AI assistant that could organize maintenance information, identify warning patterns, and help maintenance teams decide what equipment may require closer inspection.</p></div></section>
+    <section class="section split-section">
+      <div><p class="section-label">Introduction</p><h2>Turning operating signals into earlier insight.</h2></div>
+      <div class="prose"><p>Unexpected equipment failures can create downtime, production loss, quality concerns, and safety risk. This model tests whether operational indicators can help identify equipment records that show elevated failure risk within the next 14 days.</p><p>The demonstration deliberately uses synthetic data. That allows me to show the machine-learning process publicly while protecting confidential manufacturing information.</p></div>
+    </section>
 
     <section class="section value-grid">
-      <article class="info-card"><p class="section-label">Objective</p><h3>Support earlier action</h3><p>Design a practical decision-support concept that helps maintenance employees recognize risks earlier and prioritize preventive action.</p></article>
-      <article class="info-card"><p class="section-label">Unique Value</p><h3>Operational context first</h3><p>The concept emphasizes understandable recommendations for frontline users rather than presenting predictions without operational context.</p></article>
+      <article class="info-card"><p class="section-label">Business Question</p><h3>Which records show elevated risk?</h3><p>Can recent downtime, cycle-time variation, alarms, maintenance activity, days since preventive maintenance, OEE, and JPH attainment help identify elevated near-term failure risk?</p></article>
+      <article class="info-card featured"><p class="section-label">Model Choice</p><h3>Recall over accuracy alone</h3><p>Random Forest produced the highest accuracy, but Logistic Regression caught more of the true positive-risk cases. For a maintenance-screening use case, that tradeoff can be more important than headline accuracy.</p></article>
     </section>
 
-    <section class="section projects-section"><div class="project-card"><h3>Process</h3><ol><li>Defined the intended users and manufacturing use case.</li><li>Identified possible inputs such as alarms, inspection results, downtime records, and sensor readings.</li><li>Considered how an assistant could summarize patterns without replacing qualified maintenance judgment.</li><li>Outlined safety, validation, and data-quality requirements.</li><li>Began planning a prototype and example workflow.</li></ol><h3>Tools & Technology</h3><p>AI-assisted research and ideation, predictive-maintenance workflow design, data-analysis concepts, and planned use of Python and machine learning tools.</p><h3>Relevance</h3><p>A well-validated predictive-maintenance system could help reduce unplanned downtime, support preventive work, and improve the use of maintenance history.</p><div class="references"><h3>References</h3><p><a href="https://www.energy.gov/cmei/femp/operations-and-maintenance-challenges-and-solutions" target="_blank" rel="noopener">U.S. Department of Energy: Operations and Maintenance Challenges and Solutions</a></p><p><a href="https://www.energy.gov/cmei/femp/energy-management-information-system-capabilities" target="_blank" rel="noopener">U.S. Department of Energy: Energy Management Information System Capabilities</a></p><p><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST Artificial Intelligence Risk Management Framework</a></p></div></div></section>
+    <section class="section projects-section">
+      <div class="section-heading"><p class="section-label">Model Evaluation</p><h2>Three models compared on the same held-out test set</h2><p>The target class represents about 15.1% of the synthetic dataset, so accuracy alone would be misleading. Precision, recall, F1, and ROC-AUC were included to evaluate the tradeoffs.</p></div>
+      <div class="project-card">
+        <div class="project-details compact">
+          <div><h4>Logistic Regression</h4><p><strong>Accuracy:</strong> 0.727<br><strong>Precision:</strong> 0.305<br><strong>Recall:</strong> 0.644<br><strong>F1:</strong> 0.414<br><strong>ROC-AUC:</strong> 0.760</p></div>
+          <div><h4>Decision Tree</h4><p><strong>Accuracy:</strong> 0.653<br><strong>Precision:</strong> 0.219<br><strong>Recall:</strong> 0.511<br><strong>F1:</strong> 0.307<br><strong>ROC-AUC:</strong> 0.624</p></div>
+          <div><h4>Random Forest</h4><p><strong>Accuracy:</strong> 0.833<br><strong>Precision:</strong> 0.424<br><strong>Recall:</strong> 0.311<br><strong>F1:</strong> 0.359<br><strong>ROC-AUC:</strong> 0.697</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section">
+      <div class="project-card">
+        <h3>How I Built It</h3>
+        <ol>
+          <li>Created a reproducible synthetic dataset representing common manufacturing indicators.</li>
+          <li>Defined a binary target representing elevated failure risk within 14 days.</li>
+          <li>Removed identifiers from the model inputs and used a stratified 75/25 train-test split.</li>
+          <li>Compared Logistic Regression, Decision Tree, and Random Forest classifiers.</li>
+          <li>Used class weighting because the positive-risk class is less common.</li>
+          <li>Evaluated accuracy, precision, recall, F1 score, ROC-AUC, and confusion matrices.</li>
+          <li>Selected Logistic Regression based on the business need to reduce missed elevated-risk cases.</li>
+        </ol>
+
+        <div class="project-details">
+          <div><h4>Features</h4><p>Downtime hours, average cycle time, cycle-time variation, alarm count, maintenance events, days since preventive maintenance, OEE, and JPH attainment.</p></div>
+          <div><h4>Tools</h4><p>Python, Pandas, NumPy, scikit-learn, Logistic Regression, Decision Tree, Random Forest, Git, and GitHub.</p></div>
+          <div><h4>Challenge</h4><p>The positive-risk class is intentionally less common, which makes accuracy an incomplete metric. A model can look accurate while still missing too many true risks.</p></div>
+          <div><h4>What I Learned</h4><p>Model selection should follow the business consequence of errors. In this case, recall matters because false negatives represent elevated-risk cases the model failed to flag.</p></div>
+          <div><h4>Current Result</h4><p>The working training script generates the dataset, trains all three models, writes evaluation results, and reproduces the reported metrics with a fixed random seed.</p></div>
+          <div><h4>Next Validation Step</h4><p>For production use, I would replace synthetic data with approved plant data, use time-aware validation, check for leakage, tune alert thresholds, assess calibration, and monitor drift after deployment.</p></div>
+        </div>
+
+        <h3>Responsible Use</h3>
+        <p>This is a portfolio demonstration, not a production maintenance decision system. Predictions should not replace lockout/tagout requirements, approved reaction plans, inspections, maintenance expertise, or safety escalation. Any real deployment would require verified plant data, subject-matter expert review, controlled access, performance monitoring, and clear response procedures.</p>
+
+        <h3>Effectiveness Metrics for a Real Deployment</h3>
+        <p>Model recall and precision; false-alarm rate; lead time before failure; unplanned downtime hours; repeat-failure rate; preventive-to-reactive maintenance ratio; avoided downtime; user adoption; and whether alerts result in validated maintenance findings.</p>
+
+        <div class="references"><h3>Project Files & References</h3><p><a href="predictive-maintenance-model/README.md">Model README and comparison table</a> • <a href="predictive-maintenance-model/train_model.py">Python training code</a> • <a href="predictive-maintenance-model/metrics.json">Saved evaluation metrics</a></p><p><a href="https://www.energy.gov/cmei/femp/operations-and-maintenance-challenges-and-solutions" target="_blank" rel="noopener">U.S. Department of Energy: Operations and Maintenance Challenges and Solutions</a> • <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener">NIST Artificial Intelligence Risk Management Framework</a></p></div>
+      </div>
+    </section>
   </main>
   <footer><div><p class="footer-name">Jessica Stillions</p><p>AI & Machine Learning Portfolio</p></div><div class="footer-links"><a href="index.html">Portfolio Home</a><a href="https://github.com/StillionsDataAnalyst" target="_blank" rel="noopener">GitHub</a></div></footer>
 </body>
