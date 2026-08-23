@@ -1,0 +1,33 @@
+{
+  "dataset": "synthetic demonstration data",
+  "rows": 1200,
+  "positive_rate": 0.151,
+  "selected_model": "Logistic Regression",
+  "selection_reason": "Highest recall and ROC-AUC among the compared models; recall is emphasized to reduce missed elevated-risk cases.",
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.727,
+      "precision": 0.305,
+      "recall": 0.644,
+      "f1": 0.414,
+      "roc_auc": 0.760,
+      "confusion_matrix": [[189, 66], [16, 29]]
+    },
+    "Decision Tree": {
+      "accuracy": 0.653,
+      "precision": 0.219,
+      "recall": 0.511,
+      "f1": 0.307,
+      "roc_auc": 0.624,
+      "confusion_matrix": [[173, 82], [22, 23]]
+    },
+    "Random Forest": {
+      "accuracy": 0.833,
+      "precision": 0.424,
+      "recall": 0.311,
+      "f1": 0.359,
+      "roc_auc": 0.697,
+      "confusion_matrix": [[236, 19], [31, 14]]
+    }
+  }
+}
